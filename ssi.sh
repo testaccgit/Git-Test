@@ -10,7 +10,7 @@
 
 
 echo -e "\e[90m --------------------------------------------------\e[0m"
-echo -e "\e[90m  Firs System Status \e[0m"
+echo -e "\e[90m  First System Status \e[0m"
 echo -e "\e[90m --------------------------------------------------\e[0m"
 #show hostname
 echo -e "\e[31m Hostname :\e[0m" `hostname`
