@@ -25,7 +25,7 @@ echo -e "\e[91m Uptime :\e[0m" `uptime | sed 's/.*up \([^,]*\), .*/\1/'`
 echo -e "\e[31m Last Reboot Time :\e[0m" `who -b | awk '{print $3,$4}'` 
 
 echo -e "\e[90m --------------------------------------------------\e[0m"
-echo -e "\e[90m  Interenet connection and IP status \e[0m"
+echo -e "\e[90m  Internet connection and IP status \e[0m"
 echo -e "\e[90m --------------------------------------------------\e[0m"
 
 #start internet status script
